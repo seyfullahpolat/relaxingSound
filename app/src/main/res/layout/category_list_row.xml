@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/category_icon"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_margin="4dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+            <TextView
+                android:id="@+id/category_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:shadowColor="@android:color/holo_blue_dark"
+                android:shadowDx="1"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:textColor="@android:color/white"
+                android:text="New Text"
+                android:textSize="14dp" />
+    </LinearLayout>
+</FrameLayout>
