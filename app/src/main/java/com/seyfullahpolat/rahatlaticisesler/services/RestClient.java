@@ -54,7 +54,5 @@ public class RestClient {
 
         @GET("/rahatlaticisesler/v1/api.php?request=sound")
         Call<ArrayList<SoundItem>> getCategoryDetail(@QueryMap Map<String, Object> queryMap);
-
-
     }
 }

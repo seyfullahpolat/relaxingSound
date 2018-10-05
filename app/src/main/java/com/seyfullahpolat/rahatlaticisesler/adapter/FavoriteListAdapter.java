@@ -40,8 +40,8 @@ public class FavoriteListAdapter extends RecyclerView.Adapter<FavoriteListAdapte
 
     public class Myholder extends RecyclerView.ViewHolder {
         public ImageView fav_icon;
-        public ImageView play_pause;
-        public SeekBar volume;
+        ImageView play_pause;
+        SeekBar volume;
         public TextView sound_name;
         public SimpleDraweeView sound_icon;
 
